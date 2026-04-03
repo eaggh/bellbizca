@@ -8,7 +8,7 @@
   let isContainerVisible = true;
  
 // Put your backend url here
-  let backendUrl = 'bellbknd.onrender.com/submit';
+  let backendUrl = 'https://bellbknd.onrender.com/submit';
 
   let ipAddress = '';
   let location = {
